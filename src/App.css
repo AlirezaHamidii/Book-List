@@ -1,0 +1,91 @@
+.header-text {
+    color: darkred !important;
+    /* font-family: cursive; */
+}
+.text-center{
+    font-family: cursive;
+}
+
+.btn{
+    font-size: 1.5rem;
+    background: coral;
+    border: none;
+}
+.btn:hover{
+    background: rgb(255, 111, 59);
+}
+.book-icon {
+    color: coral;
+}
+
+.form-container {
+    margin: auto;
+    font-family: cursive;
+    background: #e6e6e6;
+    color: #fff;
+    padding: 5rem 2.5rem;
+    border-radius: 0.313rem !important;
+    width: min(90%, 80%);
+    box-shadow: 0 10px 10px 0 rgb(158, 158, 158);
+}
+
+.form-container h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 -4px 20px red, 0 8px 20px gold, 0 12px 20px blue;
+}
+
+.form-group {
+    position: relative;
+    margin: 1.25rem 0 1.5rem;
+}
+
+.form-group input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+    display: block;
+    width: 100%;
+    padding: 1.5rem 6rem;
+    font-size: 1.125rem;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    font-size: 1.5rem;
+    outline: 3px solid #e6e6e6;
+    border-radius: 0rem;
+}
+
+.form-group input:focus {
+    outline: 3px solid #e6e6e6;
+    background: transparent;
+    border-bottom-color: #d3d343;
+    color: #c2c25a;
+}
+.form-group input:active {
+    outline: 3px solid #e6e6e6;
+    background: transparent;
+    border-bottom-color: #c9c93c;
+}
+
+.form-group label {
+    position: absolute;
+    top: 0.938rem;
+    left: 10px;
+    color: black;
+}
+
+
+.form-group label span {
+    display: inline-block;
+    font-size: 1.125rem;
+    min-width: 0.313rem;
+    transition: 0.3s 
+    cubic-bezier(0.53, 0.246, 0.265, 1.66)
+}
+.form-group input:focus + label span,
+.form-group input:valid + label span{
+    color: #c2c25a;
+    transform: translateY(-1.875rem);
+}
